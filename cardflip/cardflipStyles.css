@@ -44,28 +44,46 @@
   }
   
   /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color:  #ffadc2;
+  #profileCard .flip-card-front {
+    background-color:  purple;
     color: white;
     border-radius: 10px;
   }
   
   /* Style the back side */
-  .flip-card-back {
-    background-color: #ffadc2;
+  #profileCard .flip-card-back {
+    background-color: purple;
     color: white;
     transform: rotateY(180deg);
     border-radius: 10px;
   }
 
-  #profileCard{
-
+  /* Style the front side (fallback if image is missing) */
+  #projectsCard .flip-card-front {
+    background-color:  pink;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  /* Style the back side */
+  #projectsCard .flip-card-back {
+    background-color: pink;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
   }
 
-  #projectsCard {
-
+  /* Style the front side (fallback if image is missing) */
+  #blogpostsCard .flip-card-front {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
   }
-
-  #blogpostsCard {
-    
+  
+  /* Style the back side */
+  #blogpostsCard .flip-card-back {
+    background-color: green;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
   }
