@@ -13,10 +13,10 @@
     background-color: transparent;
     width: 150px;
     height: 200px;
-    border: 1px solid #f1f1f1;
+    border: none; /* change to solid color to see border */
     border-radius: 10px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    font-family:'Courier New', Courier, monospace;
+
   }
   
   /* This container is needed to position the front and back side */
@@ -56,6 +56,7 @@
     color: white;
     transform: rotateY(180deg);
     border-radius: 10px;
+    padding-top: 50px;
   }
 
   /* Style the front side (fallback if image is missing) */
@@ -71,6 +72,7 @@
     color: white;
     transform: rotateY(180deg);
     border-radius: 10px;
+    padding-top: 50px;
   }
 
   /* Style the front side (fallback if image is missing) */
@@ -86,4 +88,5 @@
     color: white;
     transform: rotateY(180deg);
     border-radius: 10px;
+    padding-top: 50px;
   }
