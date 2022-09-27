@@ -1,13 +1,18 @@
+
+
 #titleheader {
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     color:#ffadc2;
+    margin-bottom: 100px;
 }
 
 #pickcardfooter {
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     color:#ffadc2;
+    margin-top: 100px;
+   
 }
 
 
@@ -50,14 +55,14 @@
   
   /* Style the front side (fallback if image is missing) */
   #profileCard .flip-card-front {
-    background-color:  purple;
+    background-color:  #bbb6df;
     color: white;
     border-radius: 10px;
   }
   
   /* Style the back side */
   #profileCard .flip-card-back {
-    background-color: purple;
+    background-color: #bbb6df;
     color: white;
     transform: rotateY(180deg);
     border-radius: 10px;
@@ -66,14 +71,14 @@
 
   /* Style the front side (fallback if image is missing) */
   #projectsCard .flip-card-front {
-    background-color:  pink;
+    background-color:  #ffadc2;
     color: white;
     border-radius: 10px;
   }
   
   /* Style the back side */
   #projectsCard .flip-card-back {
-    background-color: pink;
+    background-color: #ffadc2;
     color: white;
     transform: rotateY(180deg);
     border-radius: 10px;
@@ -82,14 +87,14 @@
 
   /* Style the front side (fallback if image is missing) */
   #blogpostsCard .flip-card-front {
-    background-color: green;
+    background-color: #c8d6af;
     color: white;
     border-radius: 10px;
   }
   
   /* Style the back side */
   #blogpostsCard .flip-card-back {
-    background-color: green;
+    background-color: #c8d6af;
     color: white;
     transform: rotateY(180deg);
     border-radius: 10px;
