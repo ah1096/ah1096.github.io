@@ -3,15 +3,18 @@
 #titleheader {
     text-align: center;
     font-family:'Courier New', Courier, monospace;
-    color:#ffadc2;
+    color: white;
     margin-bottom: 100px;
+    background-color: #ffadc2;
+
 }
 
 #pickcardfooter {
     text-align: center;
     font-family:'Courier New', Courier, monospace;
-    color:#ffadc2;
+    color:white;
     margin-top: 100px;
+    background-color: #ffadc2;
    
 }
 
