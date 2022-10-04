@@ -103,3 +103,20 @@
     border-radius: 10px;
     padding-top: 50px;
   }
+
+  /* LINK STYLING */
+  a {
+    color:white;
+    text-decoration: none;
+  }
+
+  a:link {
+    color:white;
+  }
+  
+  a:visited{
+    color: white;
+    text-decoration: none;
+  }
+
+  /*end link styling*/
