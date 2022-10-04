@@ -1,0 +1,37 @@
+#blog-body{
+    background-color: #c8d6af;
+}
+
+#bio-body {
+    background-color: #bbb6df;
+}
+
+#project-body {
+    background-color: #ffadc2;
+}
+
+#header {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 100px;
+    background-color: white;
+}
+
+#profile-header {
+    color:#bbb6df;
+}
+
+#projects-header {
+    color:#ffadc2
+}
+
+#blog-header {
+    color:#c8d6af;
+}
+
+#footer {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 100px;
+    background-color: white;
+}
